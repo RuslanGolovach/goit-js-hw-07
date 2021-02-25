@@ -1,0 +1,35 @@
+body {
+  margin-left: 50px;
+  margin-bottom: 80px;
+}
+
+#gallery {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-item {
+  margin-left: 20px;
+  list-style: none;
+}
+
+#counter {
+  margin-bottom: 20px;
+}
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
+
+#font-size-control {
+  display: flex;
+  margin-top: 30px;
+}
